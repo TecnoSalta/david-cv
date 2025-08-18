@@ -23,7 +23,7 @@ import {
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/davidmendez",
+      url: "https://linkedin.com/in/david-sebastian-mendez",
       icon: Linkedin,
     },
     {
