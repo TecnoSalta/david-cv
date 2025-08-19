@@ -27,7 +27,16 @@ To run the project locally, follow these steps:
     ```
     The application will be available at `http://localhost:3000`.
 
-## 3. Project Structure
+## 3. Deployment and Hostnames
+
+The project is deployed with the following hostnames:
+
+-   **Development**: `http://localhost:3000`
+-   **Production**: `https://tecnosalta.dev/`
+
+When working with environment variables or configurations that depend on the hostname, use these values accordingly.
+
+## 4. Project Structure
 
 The project follows a standard Next.js App Router structure.
 
