@@ -12,7 +12,7 @@ import {
     title: "Full-Stack & Cloud Solutions Architect",
     summary: "I turn complex problems into scalable, battle-tested software",
     logo: "DM",
-    cvUrl: "#", // TODO: Add CV URL
+    cvUrl: "https://tecnosalta.dev/CV_DAVID_MENDEZ.pdf",
   };
 
   export const socialLinks = [

@@ -32,7 +32,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white">
-              <Link href={personalInfo.cvUrl}>
+              <Link href={personalInfo.cvUrl} download="CV_DAVID_MENDEZ.pdf">
                 <icons.Download className="w-5 h-5 mr-2" />
                 Download CV
               </Link>
