@@ -30,7 +30,7 @@ const AboutSection = () => {
       >
         <div className="space-y-8">
           <motion.h2
-            className="text-4xl md:text-5xl font-bold text-center mb-12"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12"
             variants={itemVariants}
           >
             {aboutMe.title}
@@ -40,7 +40,7 @@ const AboutSection = () => {
             variants={itemVariants}
           >
             {aboutMe.description.map((paragraph, index) => (
-              <p key={index} className="text-xl leading-relaxed">
+              <p key={index} className="text-lg sm:text-xl leading-relaxed">
                 {paragraph}
               </p>
             ))}

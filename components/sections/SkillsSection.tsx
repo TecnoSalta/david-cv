@@ -51,7 +51,7 @@ const SkillsSection = () => {
           variants={sectionVariants}
         >
           <motion.h2
-            className="text-4xl md:text-5xl font-bold text-center mb-16"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-16"
             variants={itemVariants}
           >
             {skills.title}
@@ -65,7 +65,7 @@ const SkillsSection = () => {
                 <motion.div key={category.title} variants={itemVariants}>
                   <Card className="h-full">
                     <CardHeader>
-                      <CardTitle className={`text-2xl ${colors.text}`}>
+                      <CardTitle className={`text-xl sm:text-2xl ${colors.text}`}>
                         {category.title}
                       </CardTitle>
                     </CardHeader>

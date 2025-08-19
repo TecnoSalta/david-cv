@@ -34,12 +34,12 @@ const ProjectsSection = () => {
           variants={sectionVariants}
         >
           <motion.h2
-            className="text-4xl md:text-5xl font-bold text-center mb-16"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-16"
             variants={itemVariants}
           >
             {projects.title}
           </motion.h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.projects.map((project, index) => (
               <motion.div
                 key={index}
@@ -49,7 +49,7 @@ const ProjectsSection = () => {
                 <Card className="h-full hover:shadow-lg transition-all duration-300 hover:scale-105">
                   <CardHeader>
                     <div className="flex items-start justify-between">
-                      <CardTitle className="text-xl leading-tight">
+                      <CardTitle className="text-lg sm:text-xl leading-tight">
                         {project.title}
                         {project.isFeatured && (
                           <Badge className="ml-2 bg-blue-600 text-primary-foreground hover:bg-primary/80">

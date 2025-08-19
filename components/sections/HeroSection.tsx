@@ -20,14 +20,14 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
               {personalInfo.name}
             </h1>
-            <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-medium text-muted-foreground">
               {personalInfo.title}
             </h2>
           </div>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             {personalInfo.summary}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
