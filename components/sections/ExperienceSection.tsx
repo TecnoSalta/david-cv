@@ -38,7 +38,7 @@ const ExperienceSection = () => {
           variants={sectionVariants}
         >
           <motion.h2
-            className="text-4xl md:text-5xl font-bold text-center mb-16"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-16"
             variants={itemVariants}
           >
             {experience.title}
@@ -53,17 +53,17 @@ const ExperienceSection = () => {
                   variants={itemVariants}
                 >
                   <div className="absolute left-6 w-4 h-4 bg-blue-600 rounded-full border-4 border-background"></div>
-                  <div className="ml-20">
+                  <div className="ml-12 sm:ml-20">
                     <Card className="hover:shadow-lg transition-shadow duration-300">
                       <CardHeader>
                         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                          <CardTitle className="text-2xl">{job.title}</CardTitle>
+                          <CardTitle className="text-xl sm:text-2xl">{job.title}</CardTitle>
                           <div className="flex items-center gap-2 text-muted-foreground">
                             <icons.Calendar className="w-4 h-4" />
                             <span className="text-sm font-medium">{job.date}</span>
                           </div>
                         </div>
-                        <div className="flex items-center gap-2 text-lg font-medium text-blue-600 dark:text-blue-400">
+                        <div className="flex items-center gap-2 text-base sm:text-lg font-medium text-blue-600 dark:text-blue-400">
                           <job.companyIcon className="w-5 h-5" />
                           {job.company}
                         </div>
