@@ -6,6 +6,7 @@ import { ThemeProvider } from "../components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://tecnosalta.dev'),
   title: "David Mendez - Senior Backend Developer | C# | .NET",
   description: "Senior Backend Developer specializing in C#, .NET, and scalable system architecture. Building robust APIs and clean code solutions.",
   authors: [{ name: "David Mendez" }],
